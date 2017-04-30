@@ -5,6 +5,21 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityApp.WinForm", "ProductivityApp.WinForm\ProductivityApp.WinForm.csproj", "{8A817055-B7DE-48FD-A407-6459D8E63AB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityApp.Business", "ProductivityApp.Business\ProductivityApp.Business.csproj", "{B4374714-E028-4E8D-BF9D-089641BD504A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{084E5D5B-A481-49D9-BADE-8741478B69EF}"
+	ProjectSection(SolutionItems) = preProject
+		antiprocrastination.db = antiprocrastination.db
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityApp.DataAccess", "ProductivityApp.DataAccess\ProductivityApp.DataAccess.csproj", "{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{99EE6D12-59AC-4556-9554-F49FD178DE53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{A1DBDD2A-E636-4739-A817-62B44E396CD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FA9136CB-8CE8-45C5-9E02-B80680BEAD0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +30,21 @@ Global
 		{8A817055-B7DE-48FD-A407-6459D8E63AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A817055-B7DE-48FD-A407-6459D8E63AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A817055-B7DE-48FD-A407-6459D8E63AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4374714-E028-4E8D-BF9D-089641BD504A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4374714-E028-4E8D-BF9D-089641BD504A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4374714-E028-4E8D-BF9D-089641BD504A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4374714-E028-4E8D-BF9D-089641BD504A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A817055-B7DE-48FD-A407-6459D8E63AB9} = {FA9136CB-8CE8-45C5-9E02-B80680BEAD0A}
+		{B4374714-E028-4E8D-BF9D-089641BD504A} = {99EE6D12-59AC-4556-9554-F49FD178DE53}
+		{8456DDCF-6564-49E2-9FE8-C3CED7EA5B2A} = {A1DBDD2A-E636-4739-A817-62B44E396CD0}
 	EndGlobalSection
 EndGlobal
